@@ -85,7 +85,7 @@ def get_submissions():
     # handle = input('enter handle: ')
     handle = 'aruphoria' # CHANGE IT
     password = getpass.getpass('enter password: ')
-    contestId = 367020
+    contestId = 388266
     
     s = Session()
     _login(s, handle, password)
